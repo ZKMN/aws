@@ -1,5 +1,5 @@
 const commonConfig = {
-  development: { apiUrl: process.env.REACT_APP_API_URL },
+  development: { apiUrl: 'https://6hsduhodf6.execute-api.eu-west-1.amazonaws.com/test' },
   test: { apiUrl: process.env.REACT_APP_API_URL },
   staging: { apiUrl: process.env.REACT_APP_API_URL },
   production: { apiUrl: process.env.REACT_APP_API_URL },
